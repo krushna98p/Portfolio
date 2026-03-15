@@ -89,7 +89,7 @@ export const projects = [
     title: "Portfolio",
     description: "A full-stack Self Resume platform .",
     techStack: ["React", "Node.js", "MongoDB", "Tailwind CSS"],
-    githubUrl: "https://github.com/krushna98p",
+    githubUrl: "https://github.com/krushna98p/Portfolio.git",
     liveUrl: "#",
     image: "/certificates/project1.png", // Place images in public/projects/
   },

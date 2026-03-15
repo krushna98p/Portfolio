@@ -2,7 +2,7 @@ import React, { useState, useRef } from 'react';
 import { motion, useInView, AnimatePresence } from 'framer-motion';
 import Tilt from 'react-parallax-tilt';
 import { projects } from '../../portfolioData';
-import { FiGithub, FiExternalLink } from 'react-icons/fi';
+import { FiGithub } from 'react-icons/fi';
 
 const ProjectCard = ({ project }) => {
     return (
@@ -62,15 +62,6 @@ const ProjectCard = ({ project }) => {
                             title="View Source Code"
                         >
                             <FiGithub className="text-xl" />
-                        </a>
-                        <a 
-                            href={project.liveUrl} 
-                            target="_blank" 
-                            rel="noreferrer" 
-                            className="bg-gradient-to-r from-electricBlue to-deepPurple hover:shadow-lg hover:shadow-electricBlue/30 text-white p-2 rounded-full flex items-center justify-center transition-all"
-                            title="Live Demo"
-                        >
-                            <FiExternalLink className="text-xl" />
                         </a>
                     </div>
                 </div>

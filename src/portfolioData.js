@@ -1,6 +1,3 @@
-// portfolioData.js
-// This file contains all the personal data for the portfolio.
-// Update this file to change the content of the website without touching the components.
 
 export const personalInfo = {
   name: "Krushnal Patil",
@@ -13,10 +10,10 @@ export const personalInfo = {
   ],
   bio: "Aspiring AI Engineer passionate about building intelligent, real-world systems. I specialize in ML, Deep Learning, Computer Vision and NLP — using PyTorch, TensorFlow, Hugging Face and OpenCV — from model training to production deployment with FastAPI and Flask.",
   resumeUrl: "/resume.pdf", // Place resume.pdf in the public folder
-  email: "krushnalpatil@gmail.com", // Replace with actual email
+  email: "krushnalpatil@gmail.com",
   mobile: "8698659681",
-  location: "Maharashtra, India", // Update as needed
-  // Add your Google Maps embed URL here (src attribute from embed code)
+  location: "Maharashtra, India",
+
   mapUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3826130.6865324397!2d73.816462725515!3d19.751475713437295!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bce2f4e0409a8eb%3A0xe54ebde3bdab23!2sMaharashtra!5e0!3m2!1sen!2sin!4v1710500000000!5m2!1sen!2sin",
 };
 
